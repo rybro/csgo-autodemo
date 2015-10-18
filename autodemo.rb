@@ -66,8 +66,8 @@ def demoWatcher
     end
     if(event == :changed)
       files = Dir["#{source}"].collect{|f| File.expand_path(f)}
-      demo_time = "#{catcher[-3]}_#{Time.now.strftime("%H%M%S" + "_" + "%Y%m%d")}.dem"
-      File.readlines(@console_watch).grep(/PopulateLevelInfo:/).map do |line|
+      demo_time = "#{catcher[-1]}_#{Time.now.strftime("%H%M%S" + "_" + "%Y%m%d")}.dem"
+      File.readlines(@console_watch).grep(/Map:/).map do |line|
         catcher.concat(line.split.map(&:to_s))
       end
       puts "File updated: " + filename

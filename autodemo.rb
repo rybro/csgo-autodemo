@@ -13,10 +13,15 @@ def processKill
     ProcTable.ps{ |w|
       @csgo.push(w.pid) if w.cmdline =~ /csgo/i
     }
+    if (File.size(@console_watch) > 221434)
+      begin
+        print "remaking console.log....\n"
+        FileUtils.rm(@console_watch)
+        FileUtils.touch(@console_watch)
+      end
+    end
     if (@csgo.empty?)
-      print "CSGO closed! clearing console.log and ending script!\n"
-      FileUtils.rm(@console_watch)
-      FileUtils.touch(@console_watch)
+      print "CSGO closed! ending script!\n"
       sleep 2
       abort
     end
@@ -39,18 +44,6 @@ def demoWatcher
   catcher = []
   print "checking console size...\n"
   puts File.size(@console_watch)
-  if (File.size(@console_watch) > 221434)
-    begin
-      FileUtils.rm(@console_watch)
-      FileUtils.touch(@console_watch)
-    rescue
-      print "console.log is over the suggested limit and currently opened by CSGO, will resume deletion after you close CSGO\n"
-      Errno::EACCES
-    end
-  else
-    print "console.log size is ok, proceeding...\n"
-    sleep 1
-  end
   puts "checking if demo folder exists...\n"
   if File.exists?(directory_name)
     print "demos folder exists! continung with script... \n"

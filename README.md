@@ -90,6 +90,8 @@ start "" "C:\PATH\TO\autodemo_c.exe"
 # Common Issues
 * Sometimes on the first run of the application, when the console.log is empty, the demo will rename without a map name, e.g. -> _063807_20151018.dem. Temporarily you can just quickly record and stop a demo and upon next try at recording a demo it should work fine.
 * Because the script applies a process ID under the capture of "csgo", if you have another application starting with "csgo", be it the CSGO directory or something else, it could associate with that program instead of CSGO. Close out of anything that falls under that category before you start the application/script.
+* Currently won't name demos from custom maps that fall outside of the [map_names array], I will add a better system in the future
+
 
 # Todo
 * fix the above
@@ -105,3 +107,4 @@ start "" "C:\PATH\TO\autodemo_c.exe"
    [DownloadD]: <https://www.mediafire.com/?1xpggcbod8bqp6x>
    [DownloadE]: <https://www.mediafire.com/?337vppcj703nti6>
    [DownloadF]: <https://www.mediafire.com/?a7z506pavf6ptx0>
+   [map_names array]: <https://github.com/rybro/csgo-autodemo/blob/master/autodemo.rb#L37-L43>

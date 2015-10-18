@@ -1,6 +1,4 @@
 # CSGO-autodemo
-* https://github.com/rybro/csgo-autodemo
-
 
 ## Description
 CSGO-autodemo is a Ruby script for Counter-Strike: Global Offensive to help record and manage demo files. Because Valve doesn't currently have a system in place to automatically record POV (player perspective) demos with unique file names, the script helps remedy that. The script actively watches the default CSGO directory for demo updates and parses the console.log to copy and move completed demos to a demos directory. <b>The script currently only works for Windows</b>.

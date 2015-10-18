@@ -83,7 +83,7 @@ start "" "C:\PATH\TO\autodemo_c.exe"
 ```
 
 ## Precompiled links
-* These links include a readme.txt, an output of the ocra compile process, and MD5 hash and a BAT file which you will need to edit.
+* These links include a readme.txt, an output of the ocra compile process, an MD5 hash and a BAT file which you will need to edit.
 * Default directory (C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadC]
 * D directory (D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadD]
 * E directory (E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadE]

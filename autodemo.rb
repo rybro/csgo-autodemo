@@ -4,12 +4,12 @@ require 'sys/proctable'
 include Sys
 
 def processKill
-  @demo = []
   @csgo = []
   ProcTable.ps{ |w|
     @csgo.push(w.pid) if w.cmdline =~ /csgo/i
   }
   loop do
+    sleep 5
     ProcTable.ps{ |w|
       @csgo.push(w.pid) if w.cmdline =~ /csgo/i
     }

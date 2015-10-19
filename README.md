@@ -82,10 +82,10 @@ start "" "C:\PATH\TO\autodemo_c.exe"
 
 ## Precompiled links
 * These links include a readme.txt, an output of the ocra compile process, an MD5 hash and a BAT file which you will need to edit.
-* Default directory (C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadC]
-* D directory (D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadD]
-* E directory (E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadE]
-* F directory (D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [DownloadF]
+* Default directory (C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\) - [Download_C]
+* D directory (D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [Download_D]
+* E directory (E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [Download_E]
+* F directory (D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\) - [Download_F]
 
 # Common Issues
 * Sometimes on the first run of the application, when the console.log is empty, the demo will rename without a map name, e.g. -> _063807_20151018.dem. Temporarily you can just quickly record and stop a demo and upon next try at recording a demo it should work fine.
@@ -103,8 +103,8 @@ start "" "C:\PATH\TO\autodemo_c.exe"
    [Ruby]: <https://www.ruby-lang.org/en/>
    [RubyGems]: <https://rubygems.org/>
    [ocra]: <https://github.com/larsch/ocra>
-   [DownloadC]: <https://www.mediafire.com/?cpboishcwma5h7h>
-   [DownloadD]: <https://www.mediafire.com/?1xpggcbod8bqp6x>
-   [DownloadE]: <https://www.mediafire.com/?337vppcj703nti6>
-   [DownloadF]: <https://www.mediafire.com/?a7z506pavf6ptx0>
+   [Download_C]: <http://www.mediafire.com/download/8p9r0abf2v69ze9/autodemo_c.rar>
+   [Download_D]: <http://www.mediafire.com/download/d1ivch10m0541b4/autodemo_d.rar>
+   [Download_E]: <http://www.mediafire.com/download/xb16eystxsxc6gb/autodemo_e.rar>
+   [Download_F]: <http://www.mediafire.com/download/7oee8g3ru4x6r3k/autodemo_f.rar>
    [map_names array]: <https://github.com/rybro/csgo-autodemo/blob/master/autodemo.rb#L37-L43>

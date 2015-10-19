@@ -16,7 +16,7 @@ def processKill
     if (@csgo.empty?)
       if (File.size(@console_watch) > 221434)
         begin
-          print "console.log was over the reccomended size upon closure! remaking console.log....\n"
+          print "console.log was over the recommended size upon closure! remaking console.log....\n"
           FileUtils.rm(@console_watch)
           FileUtils.touch(@console_watch)
           sleep 2

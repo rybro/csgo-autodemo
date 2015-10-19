@@ -13,14 +13,15 @@ def processKill
     ProcTable.ps{ |w|
       @csgo.push(w.pid) if w.cmdline =~ /csgo/i
     }
-    if (File.size(@console_watch) > 221434)
-      begin
-        print "remaking console.log....\n"
-        FileUtils.rm(@console_watch)
-        FileUtils.touch(@console_watch)
-      end
-    end
     if (@csgo.empty?)
+      if (File.size(@console_watch) > 221434)
+        begin
+          print "console.log was over the reccomended size upon closure! remaking console.log....\n"
+          FileUtils.rm(@console_watch)
+          FileUtils.touch(@console_watch)
+          sleep 2
+        end
+      end
       print "CSGO is not open or was closed! ending script!\n"
       sleep 2
       abort

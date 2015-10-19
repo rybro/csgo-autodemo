@@ -66,7 +66,7 @@ ocra --add-all-core --console autodemo.rb
 
 # Precompiled Usage
 <p align="center">
-  <img src="https://i.imgur.com/KembTQQ.png" alt="Precompiled Application Usage Example"/>
+  <img src="https://i.imgur.com/gj94pas.png" alt="Precompiled Application Usage Example"/>
 </p>
 
 * The advantages of using a precompiled source is that you don't need ruby or any of the dependencies installed to run. You simply download the application and run it either with a BAT file or start it after you've started CSGO. The application is very small and will silently close after you've quit CSGO.

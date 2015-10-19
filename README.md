@@ -48,7 +48,7 @@ For more information on how to make an autoexec config, visit - http://autoexec.
 
 # Example Usage
 <p align="center">
-  <img src="https://i.imgur.com/mlGrStn.png" alt="Example Usage of Script"/>
+  <img src="https://i.imgur.com/wxqI97w.png" alt="Example Usage of Script"/>
 </p>
 
 # Compiled Usage

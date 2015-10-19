@@ -4,6 +4,8 @@ require 'sys/proctable'
 include Sys
 
 def processKill
+  # uncomment this sleep if you're compiling with ocra and pairing with batch script
+  #sleep 10
   @csgo = []
   ProcTable.ps{ |w|
     @csgo.push(w.pid) if w.cmdline =~ /csgo/i

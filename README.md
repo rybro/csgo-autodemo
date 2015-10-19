@@ -18,7 +18,7 @@ The script starts by getting the process ID of the CSGO application, this is so 
 * creates a "demos" folder to store demos in a saner fashion
 * automatically renames demo based on map name it was recorded on and time, e.g. demo.dem becomes de_overpass_032110_20151018.dem
 * console.log parsing for map name
-* if console.log is over a certain size, which can cause problems when parsing, it deletes it and creates a new one.
+* if console.log is over a certain size, which can cause problems when parsing, it deletes it and creates a new one
 * aborts script upon closure of the CSGO process
 
 
@@ -90,7 +90,7 @@ start "" "C:\PATH\TO\autodemo_c.exe"
 # Common Issues
 * Sometimes on the first run of the application, when the console.log is empty, the demo will rename without a map name, e.g. -> _063807_20151018.dem. Temporarily you can just quickly record and stop a demo and upon next try at recording a demo it should work fine.
 * Because the script applies a process ID under the capture of "csgo", if you have another application starting with "csgo", be it the CSGO directory or something else, it could associate with that program instead of CSGO. Close out of anything that falls under that category before you start the application/script.
-* Currently won't name demos from custom maps that fall outside of the [map_names array], I will add a better system in the future
+* Currently won't name demos from custom maps that fall outside of the [map_names array] with their map name, I will add a better system in the future
 
 
 # Todo

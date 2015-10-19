@@ -103,8 +103,8 @@ start "" "C:\PATH\TO\autodemo_c.exe"
    [Ruby]: <https://www.ruby-lang.org/en/>
    [RubyGems]: <https://rubygems.org/>
    [ocra]: <https://github.com/larsch/ocra>
-   [Download_C]: <http://www.mediafire.com/download/i96o5d8qxf9zfxp/autodemo_c.rar>
-   [Download_D]: <http://www.mediafire.com/download/l6af80uy5ta9pu9/autodemo_d.rar>
-   [Download_E]: <http://www.mediafire.com/download/fhoxwdsk227g896/autodemo_e.rar>
-   [Download_F]: <http://www.mediafire.com/download/lb9l8p6coyaitcx/autodemo_f.rar>
+   [Download_C]: <http://www.mediafire.com/download/iko7t8b044urlfo/autodemo_c.rar>
+   [Download_D]: <http://www.mediafire.com/download/ccs6iifw2hhy0ra/autodemo_d.rar>
+   [Download_E]: <http://www.mediafire.com/download/ow4kdbt4w58mr4f/autodemo_e.rar>
+   [Download_F]: <http://www.mediafire.com/download/tpasg5eq1a3d96a/autodemo_f.rar>
    [map_names array]: <https://github.com/rybro/csgo-autodemo/blob/master/autodemo.rb#L37-L43>

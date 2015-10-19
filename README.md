@@ -76,7 +76,6 @@ ocra --add-all-core --console autodemo.rb
 ```sh
 @echo off
 start steam://rungameid/730
-timeout /t 5
 start "" "C:\PATH\TO\autodemo_c.exe"
 ```
 

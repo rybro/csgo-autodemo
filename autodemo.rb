@@ -21,7 +21,7 @@ def processKill
       end
     end
     if (@csgo.empty?)
-      print "CSGO closed! ending script!\n"
+      print "CSGO is not open or was closed! ending script!\n"
       sleep 2
       abort
     end

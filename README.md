@@ -93,7 +93,8 @@ start "" "C:\PATH\TO\autodemo.exe"
 ## Precompiled link
 * The link includes a readme.txt, an output of the ocra compile process and MD5 hash, a config.ini and a BAT file which you will need to edit.
 * [Download here] 
-* 
+
+
 # Common Issues
 * Sometimes on the first run of the application, when the console.log is empty, the demo will rename without a map name, e.g. -> _063807_20151018.dem. Temporarily you can just quickly record and stop a demo and upon next try at recording a demo it should work fine.
 * Because the script applies a process ID under the capture of "csgo", if you have another application starting with "csgo", be it the CSGO directory or something else, it could associate with that program instead of CSGO. Close out of anything that falls under that category before you start the application/script.

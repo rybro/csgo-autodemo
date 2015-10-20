@@ -35,7 +35,6 @@ end
 def demoWatcher
   directory_name = 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\demos'
   source = 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\demo.dem'.gsub(/\\/,'/')
-  destination = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\demos/"
   @console_watch = 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\console.log'.gsub(/\\/,'/')
   map_names = ['ar_baggage', 'ar_monastery', 'ar_shoots', 'cs_agency', 'cs_assault', 'cs_backalley', 'cs_compound',
   'cs_downtown', 'cs_insertion', 'cs_italy', 'cs_militia', 'cs_motel', 'cs_office', 'cs_rush', 'cs_seaside',

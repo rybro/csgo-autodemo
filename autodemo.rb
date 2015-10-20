@@ -1,7 +1,6 @@
 require 'filewatcher'
 require 'fileutils'
 require 'sys/proctable'
-require 'parseconfig'
 require 'inifile'
 include Sys
 

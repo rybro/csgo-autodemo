@@ -44,13 +44,6 @@ def demoWatcher
   @a3 = data["console_watch"]
   @a3 = @a3.gsub(/\\/,'/')
   a4 = data["destination"]
-  map_names = ['ar_baggage', 'ar_monastery', 'ar_shoots', 'cs_agency', 'cs_assault', 'cs_backalley', 'cs_compound',
-  'cs_downtown', 'cs_insertion', 'cs_italy', 'cs_militia', 'cs_motel', 'cs_office', 'cs_rush', 'cs_seaside',
-  'cs_thunder', 'cs_workout', 'de_ali', 'de_aquarium_061815_v2', 'de_aztec', 'de_bank', 'de_bazaar', 'de_blackgold',
-  'de_cache', 'de_castle', 'de_cbble', 'de_dust', 'de_dust2', 'de_facade', 'de_favela', 'de_inferno', 'de_lake',
-  'de_log', 'de_marquis', 'de_mirage', 'de_mist', 'de_nuke', 'de_overgrown', 'de_overpass', 'de_rails', 'de_rails',
-  'de_resort', 'de_safehouse', 'de_seaside', 'de_season', 'de_shortdust', 'de_shorttrain', 'de_stmarc', 'de_sugarcane',
-  'de_train', 'de_vertigo', 'de_zoo', 'gd_assault', 'gd_bank', 'gd_cbble', 'gd_crashsite', 'gd_lake']
   catcher = []
   if File.exists?(@a3)
     print "console.log exists! continung with script... \n"

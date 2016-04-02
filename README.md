@@ -64,7 +64,7 @@ For more information on how to make an autoexec config, visit - http://autoexec.
 
 # Compiled Usage
 
-* You can compile the script into a working application (.exe) that simply requires running it after CSGO is started to work. The advantages of this is no command line usage. Everything is included in the application and no dependencies are needed. You can compile it yourself, you'll need to do this if you have a custom Steam installation directory, or you can download a premade one from below.
+* You can compile the script into a working application (.exe) that simply requires running it after CSGO is started to work. The advantages of this is no command line usage. Everything is included in the application and no dependencies are needed. You can compile it yourself or you can download a premade one from below.
 
 #### Instructions
 
